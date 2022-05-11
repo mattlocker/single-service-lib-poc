@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MyLibService } from 'my-lib/src/lib/services';
+import { MyLibService } from '../services/my-lib.service';
 
 @Component({
   selector: 'lib-my-lib',

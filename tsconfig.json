@@ -11,8 +11,12 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
+      "my-lib/*": [
+        "projects/my-lib/*",
+        "projects/my-lib"
+      ],
       "my-lib": [
-        "dist/my-lib/my-lib",
+        "dist/my-lib/",
         "dist/my-lib"
       ]
     },
